@@ -1,0 +1,29 @@
+.container-float {
+    background-color: brown;
+
+    width: 500px;
+    height: 200px;
+    margin: 100px auto 0px;
+}
+
+.float-left {
+    background-color: yellow;
+
+    width: 260px;
+    height: 180px;
+
+    margin: 10px;
+
+    float: left;
+}
+
+.float-right {
+    background-color: yellow;
+
+    width: 200px;
+    height: 180px;
+
+    margin: 10px;
+
+    float: right;
+}

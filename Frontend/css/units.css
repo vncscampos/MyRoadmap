@@ -1,0 +1,29 @@
+.units {
+    background-color: brown;
+    width: 40%;
+    height: 110px;
+    margin: 100px auto 0px;
+}
+
+.px {
+    background-color: yellow;
+    /* O pixel do CSS não é o mesmo pixel da tela do computador */
+    width: 100px;
+    height: 100px;
+}
+
+.em {
+    background-color: blue;
+    /* O tamanho deles será relativo ao elemento pai, nesse caso o elemento px */
+    width: 4em;
+    height: 4em;
+    margin: 0 auto;
+}
+
+.rem {
+    background-color: chocolate;
+    /* O tamanho dele não é relativo ao pai e sim a raiz */
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+}

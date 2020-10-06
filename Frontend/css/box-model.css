@@ -1,0 +1,21 @@
+div.box-model {
+    background-color: brown;
+
+    /* Content: width & height */
+    width: 500px;
+    height: 200px;    
+
+    /* Padding */
+    padding-top: 100px;
+    padding-right: 200px;
+
+    /* Border */
+    border: 10px solid rgba(146, 143, 143, 0.644);
+
+    /* Margin */
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    /* Mudar limites da caixa */
+    box-sizing: border-box;
+}
